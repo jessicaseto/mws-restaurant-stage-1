@@ -301,5 +301,42 @@ nav h1 a {
 /* ====================== Screens < 600px ====================== */
 @media only screen and (max-width: 600px) {
   /* ====================== Restaurant Details ====================== */
-
+  .inside {
+    display: flex;
+    flex-direction: column;
+  }
+  .inside #breadcrumb {
+    width: 90%; /* padding 5% on left and right sides */
+    padding: 10px 5%;
+  }
+  .inside header {
+    position: relative;
+  }
+  .inside #map-container {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    order: 1;
+    top: 0;
+  }
+  .inside #map {
+  }
+  .inside #footer {
+    position: relative;
+    width: 90%; /* padding 5% on left and right sides */
+  }
+  #restaurant-container {
+    order: 2;
+  }
+  #reviews-container {
+    order: 3;
+  }
+  #restaurant-container,
+  #reviews-container {
+    width: 94%; /* padding 5% on left and right sides */
+    padding: 10px 3%;
+  }
+  #reviews-list li {
+    border: 0;
+  }
 }
