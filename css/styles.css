@@ -280,6 +280,7 @@ nav h1 a {
 }
 
 /* ====================== Breakpoints ====================== */
+/* ====================== Smallest Screens ====================== */
 @media only screen and (max-width: 442px) {
   /* ====================== Navigation ====================== */
   nav h1 a {
@@ -295,4 +296,10 @@ nav h1 a {
   .filter-options #neighborhoods-select {
     margin-bottom: 0;
   }
+}
+
+/* ====================== Screens < 600px ====================== */
+@media only screen and (max-width: 600px) {
+  /* ====================== Restaurant Details ====================== */
+
 }
