@@ -275,8 +275,15 @@ nav h1 a {
   color: #666;
 }
 
-/* ========================= Breakpoints ========================== */
-@media only screen and (max-width: 445px) {
+/* ====================== Breakpoints ====================== */
+@media only screen and (max-width: 442px) {
+  /* ====================== Navigation ====================== */
+  nav h1 a {
+    font-size: 12pt;
+    padding: 10px;
+  }
+
+  /* ====================== Restaurant Filtering ====================== */
   .filter-options {
     height: 125px;
   }
