@@ -102,7 +102,8 @@ nav h1 a {
     text-decoration: underline;
 }
 /* ====================== Skip Link ====================== */
-#skiplinkmain {
+#skiplinkmain,
+#skiplinkrestaurant {
   left: -500px;
   position: fixed;
   background-color: black;
@@ -110,7 +111,8 @@ nav h1 a {
   padding: 5px 10px;
   z-index: 1;
 }
-#skiplinkmain:focus {
+#skiplinkmain:focus,
+#skiplinkrestaurant:focus {
   left: 0px;
 }
 /* ====================== Map ====================== */
