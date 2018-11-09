@@ -166,10 +166,15 @@ nav h1 a {
 #restaurants-list li {
   background-color: #fff;
   border: 2px solid #ccc;
+  border-radius: 20px;
   font-family: 'Montserrat', sans-serif;
-  margin: 15px;
+  margin: 15px 15px 0;
   padding: 5%;
   text-align: left;
+  max-width: 650px;
+}
+#restaurants-list li:last-of-type {
+  margin: 15px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -390,8 +395,9 @@ nav h1 a {
 
 /* ====================== Screens > 750px ====================== */
 @media only screen and (min-width: 750px) {
-  #restaurants-list li {
-    max-width: 750px;
-    margin: auto;
+  #restaurants-list li,
+  #restaurants-list li:last-of-type {
+    margin-left: auto;
+    margin-right: auto;
   }
 }
