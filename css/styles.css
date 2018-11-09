@@ -133,6 +133,10 @@ nav h1 a {
   padding: 0 10px;
   width: 200px;
 }
+.filter-options select:focus {
+  box-shadow: 0 0 5px #d37;
+  border: 2px solid #d37;
+}
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
@@ -183,6 +187,10 @@ nav h1 a {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+}
+#restaurants-list li a:focus {
+  box-shadow: 0 0 5px #d37;
+  border: 2px solid #d37;
 }
 
 /* ====================== Restaurant Details ====================== */
