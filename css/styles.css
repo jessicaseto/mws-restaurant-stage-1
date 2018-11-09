@@ -101,8 +101,21 @@ nav h1 a {
     color: #01447e;
     text-decoration: underline;
 }
+/* ====================== Skip Link ====================== */
+#skiplink {
+  left: -500px;
+  position: fixed;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  z-index: 1;
+}
+#skiplink:focus {
+  left: 0px;
+}
 /* ====================== Map ====================== */
 #map {
+  z-index: 0;
   height: 400px;
   width: 100%;
   background-color: #ccc;
