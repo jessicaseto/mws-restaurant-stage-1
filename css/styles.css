@@ -298,6 +298,13 @@ nav h1 a {
 #reviews-list li p {
   margin: 0 0 10px;
 }
+.review-rating {
+  background-color: #f58500;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 5px;
+  width: 60px;
+}
 #restaurant-hours td {
   color: #666;
 }
