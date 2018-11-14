@@ -160,11 +160,12 @@ nav h1 a {
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   background-color: #f3f3f3;
   list-style: outside none none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 15px;
   text-align: center;
 }
 #restaurants-list li {
@@ -173,12 +174,11 @@ nav h1 a {
   border-radius: 20px;
   font-family: 'Montserrat', sans-serif;
   margin: 15px 15px 0;
-  padding: 5%;
+  padding: 15px;
   text-align: left;
-  max-width: 650px;
-}
-#restaurants-list li:last-of-type {
-  margin: 15px;
+  width: 30%;
+  min-width: 200px;
+  max-width: 280px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -398,14 +398,5 @@ nav h1 a {
   }
   #reviews-list li {
     border: 0;
-  }
-}
-
-/* ====================== Screens > 750px ====================== */
-@media only screen and (min-width: 750px) {
-  #restaurants-list li,
-  #restaurants-list li:last-of-type {
-    margin-left: auto;
-    margin-right: auto;
   }
 }
