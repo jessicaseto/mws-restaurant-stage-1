@@ -18,7 +18,7 @@ Ensure that you have a way to start up a simple HTTP server to serve up the site
 
 1. Download the project as a .zip file, and unzip it at a location of your choice.
 
-2. **cd** into the project directory. Start up your web server within this project directory.
+2. `cd` into the project directory. Start up your web server within this project directory.
 
 3. With your server running, visit the site: **http://localhost:8000**, and look around for a bit to see what the current experience looks like. Note that you can use ports other than 8000, but the server needs to be configured to the particular port, and the port needs to be updated in `dbhelper.js`.
 
